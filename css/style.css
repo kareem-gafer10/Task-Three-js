@@ -1,0 +1,72 @@
+*{
+    font-family: arial;
+}
+
+
+
+.header {
+    color: #AAA;
+    size:25px;
+   
+    border-bottom: 1px solid #999;
+}
+
+.bg{
+    background-color: #EEE;
+
+}
+
+.size
+{
+    font-size: 24px;
+}
+.p-size
+{
+    color: #333;
+
+}
+input
+{
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #DDD;
+    padding: 5px;
+    font-size: 15px;
+    height: 29px;
+}
+
+
+footer .container
+
+{
+    padding: 20px;
+    border-top: 1px solid #999;
+    font-size: 14px;
+   margin: 15px auto;
+
+}
+
+footer p
+{
+    color: #AAA;
+    font-size: 14px;
+    font-weight: bold;
+}
+.linear
+{
+    background: linear-gradient(#EEE,#FFF);
+    margin: 25px;
+    padding: 50px;
+}
+.bg-red
+{
+    background-color: #ffb2b2;
+    width: 82%;
+    margin: auto;
+    padding: 5px;
+    color: #6d0000;
+    border: 1px solid #6d0000;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+}

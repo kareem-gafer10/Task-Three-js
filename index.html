@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+    <div class="container">
+       <h3 class="header font-weight-bold py-5 px-3"> Bookmarker</h3>
+    </div>
+</header>
+
+
+<div class="container">
+    <div class="bg text-center m-4 p-3">
+        <div class="column">
+    <h2 class="size pt-5 pb-3 font-weight-bold"  >Bookmark your favorite sites</h2>
+    <p id="nError" class=" alert alert-danger d-none">your name must start with capital letter then small letters</p>
+    <p class="p-size font-weight-bold p-1">Site Name</p>
+    <input id="siteName" type="text" placeholder="Bookmark Name"  >
+    <p class='   alert  alert-error m-auto ' id="nameError"> </p>
+    <p id="uError" class="alert alert-danger d-none"> your website  should be like this www.*********.com</p>
+    <p   class="p-size font-weight-bold pt-2">Site URL</p>
+    <input  id="siteUrl" type="text" placeholder="website URL">
+    <p  class='alert   alert-error m-auto '  id="urlError"></p>
+    <div class="m-auto">
+        <button id="submit" onclick="addWeb()" class="mt-3 mb-4 btn btn-primary ">submit</button>
+    </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class=" column   " id="webs">
+
+    </div>
+</div>
+
+<footer>
+
+    <div class="container">
+        <p>© 2022 Bookmarker Inc.</p>
+    </div>
+</footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
